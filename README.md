@@ -6,3 +6,8 @@ form.html
 
 NB: Strictly without CSS. 
 
+<h1>Part B</h1>
+Click on the link below:
+https://javascript.oluwasetemi.dev/294 
+Solve Problem 1 - 5
+
