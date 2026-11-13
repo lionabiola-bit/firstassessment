@@ -20,66 +20,29 @@
     <!-- main content -->
     <main>
       <section>
-        <div
-          style="
-            display: flex;
-            align-items: center;
-            width: 100%;
-            max-width: 720px;
-            height: 70px;
-            padding: 9px;
-            box-sizing: border-box;
-            background: #e6f0ff;
-            border-radius: 50px;
-          "
-        >
-          <a
-            href="#signup"
-            style="
-              flex: 1;
-              text-align: center;
-              text-decoration: none;
-              color: #111;
-              font-size: 20px;
-              font-family: Arial, sans-serif;
-              padding: 15px 0;
-            "
-          >
-            Sign up
-          </a>
+        <div>
+          <a> Sign up </a>
 
-          <a
-            href="#signin"
-            style="
-              flex: 1;
-              text-align: center;
-              text-decoration: none;
-              color: #2474d8;
-              font-size: 20px;
-              font-family: Arial, sans-serif;
-              background: #fff;
-              border-radius: 50px;
-              padding: 15px 0;
-              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
-            "
-          >
-            Sign in
-          </a>
+          <a> Sign in </a>
         </div>
         <h1>Sign in</h1>
+        <p>
+          Enter your email address and password to securely log in to AltSchool
+          Student Portal
+        </p>
 
         <form action="#" method="post">
           <fieldset>
             <legend>Login Details</legend>
 
             <p>
-              <label for="email">Email Address</label>
+              <label for="email">Email</label>
               <br />
               <input
                 type="email"
                 id="email"
                 name="email"
-                placeholder="Enter your email"
+                placeholder="john.doe@example.com"
                 required
               />
             </p>
@@ -91,26 +54,21 @@
                 type="password"
                 id="password"
                 name="password"
-                placeholder="Enter your password"
+                placeholder="********"
                 required
               />
             </p>
 
             <p>
-              <input type="checkbox" id="remember" name="remember" />
-              <label for="remember">Remember me</label>
-            </p>
-
-            <p>
-              <button type="submit">Sign In</button>
+              <button type="submit">Proceed to Dashboard →</button>
             </p>
           </fieldset>
 
-          <p><a href="#">Forgot Password?</a></p>
-
-          <p><a href="#">Continue with Google</a></p>
-
-          <p>Don't have an account? <a href="#">Sign Up</a></p>
+          <p>
+            <a>Forgot Password?</a> <a href="#"><u>Reset Now!</u></a>
+          </p>
+          <p>OR</p>
+          <p><a href="#">Login with Google</a></p>
         </form>
       </section>
     </main>
